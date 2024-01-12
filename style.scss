@@ -1,0 +1,512 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px, 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section1 {
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    .section2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 100px;
+
+        .time {
+            width: 500px;
+            height: 5vh;
+            // background-color: burlywood;
+            display: flex;
+            align-items: center;
+
+            ul {
+                list-style: none;
+                display: flex;
+                gap: 20px;
+
+                li {
+                    font-size: 12px;
+                    color: #fff;
+                    font-family: 'Times New Roman', Times, serif;
+                    font-weight: 100;
+
+                    .bi {
+                        color: red;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+
+        .social {
+            width: 200px;
+            height: 5vh;
+            // background-color: chartreuse;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            ul {
+                list-style: none;
+                display: flex;
+                gap: 20px;
+
+                li {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+nav {
+    width: 100%;
+    height: 16vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+
+    .nav {
+        display: flex;
+        justify-content: space-evenly;
+        justify-content: center;
+        align-items: center;
+        gap: 460px;
+
+        .logo {
+            width: 200px;
+            // height: 10vh;
+            // background-color: aqua;
+        }
+
+        .menu {
+            width: 500px;
+            height: 10vh;
+            // background-color: yellow;
+
+            ul {
+                list-style: none;
+                display: flex;
+                gap: 30px;
+
+                li {
+                    color: #0d2d3e;
+                    font-weight: 400;
+                    font-size: 18px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+                    a {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.section3 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://preview.colorlib.com/theme/consultingbiz/assets/img/hero/h1_hero.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .section4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+
+        .text1 {
+            width: 500px;
+
+            // height: 5vh;
+            // background-color:aqua;
+            .color1 {
+                color: #eb566c;
+                font-weight: 500;
+                font-size: 22px;
+                //    text-align: center;
+            }
+        }
+
+        .text2 {
+            width: 500px;
+
+            // height: 25vh;
+            // background-color: coral;
+            h1 {
+                font-size: 55px;
+                font-weight: 700;
+                color: black;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+        }
+
+        .text3 {
+            width: 500px;
+            // height: 35vh;
+            // background-color: green;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            .color2 {
+                font-size: 20px;
+                color: #000000;
+                font-family: 'Times New Roman', Times, serif;
+            }
+
+            .btn1 {
+                width: 150px;
+                height: 10vh;
+                background-color: #eb566c;
+                border: none;
+                cursor: pointer;
+                color: #fff;
+                font-size: 18px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+            }
+
+            .btn1:hover {
+                background-color: #fff;
+                color: black;
+            }
+
+        }
+
+    }
+}
+
+
+.section5 {
+    width: 100%;
+    height: 100vh;
+    // background-color: burlywood;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    .section6 {
+        display: flex;
+        // justify-content: st;
+        // align-items: center;
+        // flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        .text4 {
+            width: 600px;
+            height: 10vh;
+            // background-color: aqua;
+            margin-bottom: 20px;
+
+            .color3 {
+                color: #eb566c;
+                font-size: 15px;
+                font-family: "Roboto", sans-serif;
+                text-transform: uppercase;
+                font-weight: 500;
+
+            }
+
+            h2 {
+                display: block;
+                color: #0d2d3e;
+                font-size: 50px;
+                font-weight: 900;
+            }
+
+        }
+
+        .text5 {
+            width: 2600px;
+            // height: 65vh;
+            // background-color: cornflowerblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .cart {
+                width: 1200px;
+                // height: 60vh;
+                // background-color: chocolate;
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 20px;
+
+                .cart1 {
+                    width: 380px;
+                    // height: 55vh;
+                    // background-color: blue;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    gap: 20px;
+
+                    .icon {
+                        // width: 280px;
+                        // height: 10vh;
+                        // background-color: deeppink;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100px;
+                        height: 100px;
+                        background-color: #ff0000;
+                        img{
+                            width: 150px;
+                        height: 150px;
+                        }
+
+                    }
+
+                    .text6 {
+                        width: 380px;
+                        // height: 30vh;
+                        // background-color: indianred;
+
+                        h3 {
+                            font-size: 24px;
+                            font-weight: 600;
+                            text-align: center;
+
+                            a {
+                                text-decoration: none;
+                            }
+                        }
+
+                        .color4 {
+                            color: #57667e;
+                            font-size: 20px;
+                            margin-top: 20px;
+                        }
+
+                        .fav {
+                            width: 100px;
+                            height: 4vh;
+                            font-size: 18px;
+                            background-color: rgb(219, 158, 158);
+                            border: none;
+                            cursor: pointer;
+                            margin-top: 20px;
+                        }
+
+                        .deta {
+                            width: 100px;
+                            height: 4vh;
+                            font-size: 18px;
+                            background-color: rgb(247, 173, 210);
+                            border: none;
+                            cursor: pointer;
+                            margin-top: 20px;
+
+                            .bi {
+                                font-size: 18px;
+                                color: mediumorchid;
+                            }
+                        }
+
+                        .up {
+                            width: 100px;
+                            height: 4vh;
+                            font-size: 18px;
+                            background-color: goldenrod;
+                            border: none;
+                            cursor: pointer;
+                            margin-top: 20px;
+                        }
+                    }
+                }
+
+                // :hover {
+                //     background-color: rgb(233, 202, 218);
+                // }
+
+            }
+        }
+    }
+}
+
+.section7 {
+    width: 100%;
+    height: 80vh;
+    background-image: url(https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/section_bg02.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .section8 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+
+        .photo {
+            width: 500px;
+            height: 70vh;
+
+            // background-color: darkmagenta;
+            img {
+                width: 500px;
+                height: 70vh;
+            }
+        }
+
+        .text7 {
+            width: 500px;
+            height: 70vh;
+            // background-color: lightgreen;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 30px;
+
+            .text71 {
+
+                // width: 300px;
+                // height: 5vh;
+                // background-color: maroon;
+                .color5 {
+                    font-size: 15px;
+                    color: #cecece;
+                    font-weight: 100;
+                }
+
+                h3 {
+                    font-size: 50px;
+                    font-weight: 900;
+                    color: #fff;
+                }
+            }
+
+            .text72 {
+                .color6 {
+                    font-size: 20px;
+                    font-weight: 500;
+                    color: #fff;
+                    font-family: "Roboto", sans-serif;
+                }
+            }
+
+            .text73 {
+                .color7 {
+                    font-size: 15px;
+                    color: #cecece;
+                    margin-bottom: 20px;
+                }
+
+                .btn1 {
+                    width: 150px;
+                    height: 10vh;
+                    background-color: #eb566c;
+                    border: none;
+                    cursor: pointer;
+                    color: #fff;
+                    font-size: 18px;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+                }
+
+                .btn1:hover {
+                    background-color: #fff;
+                    color: black;
+                }
+
+            }
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .section9 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 40px;
+
+        .text8 {
+            width: 690px;
+            height: 6vh;
+            //  background-color: darkturquoise;
+            text-align: center;
+
+            .color8 {
+                font-size: 20px;
+                color: #fff;
+
+                .bi {
+                    font-size: 20px;
+                    color: #ff0000;
+
+                }
+
+                a {
+                    text-decoration: none;
+                    color: #ff0000;
+                }
+            }
+        }
+
+        .icon2 {
+            width: 300px;
+            height: 6vh;
+            // background-color: yellow;
+            background-image: url(https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/footer_bg.jpg.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            ul {
+                list-style: none;
+                display: flex;
+                gap: 10px;
+
+                li {
+                    a {
+                        font-size: 20px;
+                        color: #fff;
+                    }
+
+                }
+            }
+        }
+    }
+}
